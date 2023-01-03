@@ -2880,7 +2880,9 @@ textarea.form-control-lg {
 	border-bottom-right-radius: 0;
 }
 .input-group
-	> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+	> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+		.valid-feedback
+	):not(.invalid-tooltip):not(.invalid-feedback) {
 	margin-left: -1px;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
@@ -12051,19 +12053,19 @@ ul.socials {
 }
 
 a.email {
-  right: 30px;
+	right: 30px;
 }
 
 a.linkedin {
-  right: 32px;
+	right: 32px;
 }
 
 a.github {
-  right: 11px;
+	right: 11px;
 }
 
 a.resume {
-  right: 6px;
+	right: 6px;
 }
 
 .socials img {
@@ -12082,33 +12084,33 @@ a.resume {
 .icon-github {
 	border-radius: 25%;
 }
-	
+
 .icon-resume {
 	border-radius: 0%;
 }
 
 .text-email {
 	position: relative;
-	left: 21px;
+	left: 23px;
 	top: 0px;
 }
 .text-linkedin {
 	position: relative;
-	left: 18px;
+	left: 21px;
 	top: 0px;
 }
 .text-github {
 	position: relative;
-	left: 40px;
+	left: 42px;
 	top: 0px;
 }
 .text-resume {
 	position: relative;
-	left: 45px;
+	left: 46px;
 	top: 0px;
 }
 
-.img-name{
+.img-name {
 	object-fit: none;
 	object-position: 50% 33%;
 	width: 150px;
@@ -12213,21 +12215,22 @@ a.resume {
 }
 /* Bounce In */
 .hvr-bounce-in {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
 }
-.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
-
 
 /* Colors Used */
 /* 
