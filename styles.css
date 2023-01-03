@@ -12034,6 +12034,17 @@ section.resume-section .resume-section-content {
 	list-style-type: none;
 }
 
+/**** Contact Me ****/
+
+ul.socials {
+	position: relative;
+}
+
+.socials li {
+	position: relative;
+	right: 20px;
+}
+
 .icon-email {
 	height: 74px;
 	width: 74px;
