@@ -12051,19 +12051,19 @@ ul.socials {
 }
 
 a.email {
-  right: 31px;
+  right: 30px;
 }
 
 a.linkedin {
-  right: 34px;
+  right: 32px;
 }
 
 a.github {
-  right: 16px;
+  right: 11px;
 }
 
 a.resume {
-  right: 12px;
+  right: 6px;
 }
 
 .socials img {
@@ -12089,22 +12089,22 @@ a.resume {
 
 .text-email {
 	position: relative;
-	left: 20px;
+	left: 21px;
 	top: 0px;
 }
 .text-linkedin {
 	position: relative;
-	left: 14px;
+	left: 18px;
 	top: 0px;
 }
 .text-github {
 	position: relative;
-	left: 34px;
+	left: 40px;
 	top: 0px;
 }
 .text-resume {
 	position: relative;
-	left: 31px;
+	left: 45px;
 	top: 0px;
 }
 
