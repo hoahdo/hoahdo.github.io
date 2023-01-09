@@ -944,7 +944,7 @@ progress {
 	--bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
 	.col-sm {
 		flex: 1 0 0%;
 	}
@@ -12044,8 +12044,8 @@ ul.socials {
 
 .socials li {
 	position: relative;
-	right: 20px;
-	
+	width: auto;
+	right: 10px;
 }
 
 .socials a {
@@ -12054,19 +12054,19 @@ ul.socials {
 }
 
 a.email {
-	left: 75px;
+	left: 50px;
 }
 
 a.linkedin {
-	left: 75px;
+	left: 50px;
 }
 
 a.github {
-	left: 75px;
+	left: 50px;
 }
 
 a.resume {
-	left: 75px;
+	left: 50px;
 }
 
 .socials img {
@@ -12092,22 +12092,22 @@ a.resume {
 
 .text-email {
 	position: relative;
-	left: 100px;
+	left: 75px;
 	top: 5px;
 }
 .text-linkedin {
 	position: relative;
-	left: 100px;
+	left: 75px;
 	top: 5px;
 }
 .text-github {
 	position: relative;
-	left: 100px;
+	left: 75px;
 	top: 5px;
 }
 .text-resume {
 	position: relative;
-	left: 100px;
+	left: 75px;
 	top: 5px;
 }
 
