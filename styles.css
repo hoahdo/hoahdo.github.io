@@ -12038,35 +12038,16 @@ section.resume-section .resume-section-content {
 
 /**** Contact Me ****/
 
-ul.socials {
-	position: relative;
+.contact-ul {
+	display: flex;
+	justify-content: center;
 }
 
-.socials li {
-	position: relative;
-	width: auto;
-	right: 10px;
-}
-
-.socials a {
-	/* background-color: red; */
-	position: relative;
-}
-
-a.email {
-	left: 50px;
-}
-
-a.linkedin {
-	left: 50px;
-}
-
-a.github {
-	left: 50px;
-}
-
+a.email,
+a.linkedin,
+a.github,
 a.resume {
-	left: 50px;
+	padding-right: 15px;
 }
 
 .socials img {
@@ -12088,27 +12069,6 @@ a.resume {
 
 .icon-resume {
 	border-radius: 0%;
-}
-
-.text-email {
-	position: relative;
-	left: 75px;
-	top: 5px;
-}
-.text-linkedin {
-	position: relative;
-	left: 75px;
-	top: 5px;
-}
-.text-github {
-	position: relative;
-	left: 75px;
-	top: 5px;
-}
-.text-resume {
-	position: relative;
-	left: 75px;
-	top: 5px;
 }
 
 .img-name {
