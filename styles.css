@@ -12043,11 +12043,11 @@ section.resume-section .resume-section-content {
 	justify-content: center;
 }
 
-a.email,
-a.linkedin,
-a.github,
-a.resume {
-	padding-right: 15px;
+.text-email,
+.text-linkedin,
+.text-github,
+.text-resume {
+	padding-left: 10px;
 }
 
 .socials img {
