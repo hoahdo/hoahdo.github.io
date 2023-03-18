@@ -59,6 +59,7 @@ Things I learned:
 * Creating a personalized portfolio page
 * Using the CSS framework Bootstrap to style the page
 * Implementing modals
+* Using Github Pages to host static web pages
 
 <!--- Resources Section --->
 
