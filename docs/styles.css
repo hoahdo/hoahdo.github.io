@@ -12079,6 +12079,11 @@ section.resume-section .resume-section-content {
 	border-radius: 50%;
 }
 
+/* Projects */
+.proj-img {
+    border: solid 1px grey ;
+}
+
 /* Hover.css Copyright Ian Lunn 2017. Generated with Sass. */
 /* Icon Hover */
 .hvr-icon-spin {
